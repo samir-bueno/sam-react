@@ -1,0 +1,5 @@
+.grilla_3x3 {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));  
+}
