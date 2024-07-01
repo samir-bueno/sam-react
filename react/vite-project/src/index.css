@@ -3,3 +3,61 @@
         grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
         grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));  
 }
+
+.container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #722525;
+        border-radius: 8px;
+        background-color: #f0f0f0;
+        box-shadow: 0 0 10px rgba(139, 30, 30, 0.795);
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Alinea los elementos verticalmente al centro */
+      }
+      
+      .title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-align: center; /* Centra el texto del título */
+        width: 100%; /* Asegura que el texto ocupe todo el ancho disponible */
+      }
+      
+      .select-container {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 10px;
+      }
+      
+      .select-container select {
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        flex: 1;
+      }
+      
+      .input-container {
+        display: flex;
+        gap: 10px;
+        margin-top: 10px;
+      }
+      
+      .input-container input[type="number"] {
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        flex: 1;
+      }
+      
+      .result {
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center; /* Centra el texto del resultado */
+        width: 100%; /* Asegura que el texto ocupe todo el ancho disponible */
+      }
+      
