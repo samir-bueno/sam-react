@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
+import { useEffect,useState  } from "react";
 
-export function Personajes() {
+export function EpisodioPersonajes() {
     const [personajes, setPersonaje] = useState([]);
 
    useEffect(() => {
@@ -19,7 +19,7 @@ export function Personajes() {
         <div className="grilla_3x3">      
           {personajes.map((personaje, index) => (
             <div key={index} className="cartas">
-              <h2>{personaje.name}</h2>
+              <h2>Nombre: {personaje.name}</h2>
               <img src={personaje.image}/>
               <p> id: {personaje.id}</p>
               <p> Status: {personaje.status}</p>
